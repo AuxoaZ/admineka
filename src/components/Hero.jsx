@@ -4,7 +4,7 @@ import { Phone, Youtube } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="min-h-screen md:min-h-auto flex flex-col items-center justify-center  md:py-16 bg-base-100">
+    <section className="h-auto md:min-h-screen flex flex-col items-center justify-center py-16 mb-14 md:mb-0 bg-base-100">
       {/* Content - CENTER ALIGN */}
       <div className="text-center w-full max-w-4xl mx-auto">
         {/* Headline */}
