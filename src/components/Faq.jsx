@@ -58,7 +58,7 @@ export function Faq() {
         </div>
 
         {/* FAQ Items dengan Dropdown */}
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto px-3">
           <div className="space-y-4">
             {faqs.map((faq, index) => (
               <div
@@ -67,10 +67,10 @@ export function Faq() {
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
                 <div className="flex justify-between items-center">
-                  <h3 className="text-normal md:text-lg font-semibold text-base-content pr-4">
+                  <h3 className="text-base md:text-lg font-semibold text-base-content pr-4">
                     {faq.question}
                   </h3>
-                  <span className="text-xl text-primary shrink-0">
+                  <span className="text-lg text-primary shrink-0">
                     {openIndex === index ? "−" : "+"}
                   </span>
                 </div>
@@ -81,7 +81,7 @@ export function Faq() {
                     openIndex === index ? "max-h-48 mt-4" : "max-h-0"
                   }`}
                 >
-                  <p className="text-base-content/70 leading-relaxed">
+                  <p className="text-sm-content/70 leading-relaxed">
                     {faq.answer}
                   </p>
                 </div>

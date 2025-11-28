@@ -130,7 +130,7 @@ export function Pricing() {
         </div>
 
         {/* Pricing Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-3 md:px-0">
           {plans.map((plan, index) => (
             <div
               key={index}

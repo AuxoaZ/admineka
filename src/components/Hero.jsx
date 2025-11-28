@@ -1,10 +1,10 @@
 /** @format */
 
-import { Phone } from "lucide-react";
+import { Phone, Youtube } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="min-h-screen md:min-h-auto flex flex-col items-center justify-center  py-8 md:py-16 bg-base-100">
+    <section className="min-h-screen md:min-h-auto flex flex-col items-center justify-center  md:py-16 bg-base-100">
       {/* Content - CENTER ALIGN */}
       <div className="text-center w-full max-w-4xl mx-auto">
         {/* Headline */}
@@ -31,10 +31,14 @@ export function Hero() {
           chat pelanggan.
         </p>
         {/* CTA Buttons */}
-        <div className="flex  justify-center items-center px-2">
-          <button className="btn btn-primary hover:bg-yellow-400 hover:border-yellow-400 btn-lg rounded-2xl  py-3 sm:py-4 text-base sm:text-lg font-semibold sm:w-auto">
+        <div className="flex flex-col md:flex-row gap-4 justify-center items-center px-2">
+          <button className="btn btn-primary hover:btn-primary btn-lg rounded-xl  py-3 sm:py-4 text-base sm:text-lg font-semibold sm:w-auto">
             <Phone className="mr-2" />
             Hubungi Kami
+          </button>
+          <button className="btn btn-outline btn-primary hover:btn-primary btn-lg rounded-xl  py-3 sm:py-4 text-base sm:text-lg font-semibold sm:w-auto">
+            <Youtube className="mr-2" />
+            Demo
           </button>
         </div>
       </div>

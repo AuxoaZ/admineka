@@ -70,7 +70,7 @@ export function Case() {
                     {caseStudy.results.map((result, idx) => (
                       <span
                         key={idx}
-                        className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full"
+                        className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-lg"
                       >
                         {result}
                       </span>

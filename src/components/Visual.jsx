@@ -124,9 +124,9 @@ export function Visual() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 items-center max-w-6xl mx-auto ">
+        <div className="grid grid-cols-1 lg:grid-cols-3  items-center max-w-6xl mx-auto ">
           {/* Left Side - Chat Demo */}
-          <div className=" bg-linear-to-br from-primary/5 to-primary/5 rounded-3xl py-5 px-8 ">
+          <div className=" bg-linear-to-br from-primary/5 to-primary/5 rounded-3xl py-5 px-8 mb-7">
             <div className="text-center mb-6">
               <div className="inline-flex items-center gap-2 bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-medium">
                 <span>💬</span>
